@@ -87,7 +87,7 @@ with st.sidebar:
     st.markdown("---")
     page = st.radio(
         " Navigate to",
-        [" Overview", "Participation Trends", "Feedback & Ratings", "Interactive Dashboard"],
+        ["Overview", "Participation Trends", "Feedback & Ratings", "Interactive Dashboard"],
     )
     st.markdown("---")
     st.markdown("### 🔧 Filters")
@@ -154,7 +154,7 @@ if page == "Overview":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE 2 – PARTICIPATION TRENDS + INDIA MAP
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == " Participation Trends":
+elif page == "Participation Trends":
     st.markdown('<div class="section-header"> Participation Trends & India Map</div>',
                 unsafe_allow_html=True)
 
@@ -235,7 +235,7 @@ elif page == " Participation Trends":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE 3 – FEEDBACK & RATINGS
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == " Feedback & Ratings":
+elif page == "Feedback & Ratings":
     st.markdown('<div class="section-header">Feedback Analysis & Ratings</div>',
                 unsafe_allow_html=True)
 
